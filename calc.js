@@ -1,11 +1,10 @@
-let num = Math.floor(Math.random());
-console.log(num);
+let num = Math.floor(Math.random() * 1000);
 
 if((num % 3) === 0) {
   console.log('3の倍数です');
 } else if ((num % 5) === 0) {
   console.log('5の倍数です');
-} else if ((num % 15) === 0) {
+} if ((num % 3) === 0 && (num % 5) === 0 ) {
   console.log('3と5の倍数です');
 } else {
   console.log(num);
